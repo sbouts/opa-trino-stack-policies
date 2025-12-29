@@ -2,3 +2,4 @@ allow_admin.rego
 allow_catalog.rego
 allow_default_access.rego
 main.rego
+user.rego

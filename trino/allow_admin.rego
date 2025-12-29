@@ -1,16 +1,15 @@
 package trino
 
-import data.rbacserver
-
 import future.keywords.if
 
 allow_admin if {
-	user_is_admin
+	user_is_admin(trino_user_id)
 }
 
 # validate if user is admin
-user_is_admin if {
+user_is_admin(trino_user_id) if {
 	# context.user_id == "admin"
 	# input.context.identity.user == "superman"
-	rbacserver.users.is_admin == true
+	print(trino_user_id)
+	external.users[trino_user_id].is_admin == true
 }
