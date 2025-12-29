@@ -4,8 +4,6 @@ import future.keywords.contains
 import future.keywords.if
 import future.keywords.in
 
-# import data.configuration
-
 default allow := false
 
 allow if {

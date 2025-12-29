@@ -1,5 +1,7 @@
 package trino
 
+import data.external
+
 import future.keywords.if
 
 allow_admin if {
