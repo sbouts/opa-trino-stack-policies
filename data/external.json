@@ -1,0 +1,72 @@
+{
+  "external": {
+    "catalog": [
+      {
+        "access": [
+          {
+            "catalog": [
+              "tpch"
+            ]
+          }
+        ],
+        "user": "regularman"
+      }
+    ],
+    "column": [
+      {
+        "access": [
+          {
+            "catalog": "tpch",
+            "column": [
+              "custkey",
+              "nationkey"
+            ],
+            "schema": "sf1",
+            "table": "customer"
+          }
+        ],
+        "user": "regularman"
+      }
+    ],
+    "schema": [
+      {
+        "access": [
+          {
+            "catalog": "tpch",
+            "schema": [
+              "sf1"
+            ]
+          }
+        ],
+        "user": "regularman"
+      }
+    ],
+    "table": [
+      {
+        "access": [
+          {
+            "catalog": "tpch",
+            "schema": "sf1",
+            "table": [
+              "customer"
+            ]
+          }
+        ],
+        "user": "regularman"
+      }
+    ],
+    "users": [
+      {
+        "superman": {
+          "is_admin": true
+        }
+      },
+      {
+        "regularman": {
+          "is_admin": false
+        }
+      }
+    ]
+  },
+  "trino": {}
+}

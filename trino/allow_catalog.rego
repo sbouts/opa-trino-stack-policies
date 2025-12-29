@@ -1,7 +1,5 @@
 package trino
 
-# import data.configuration
-
 import future.keywords.if
 
 allow_catalog if {

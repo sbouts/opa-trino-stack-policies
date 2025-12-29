@@ -1,0 +1,14 @@
+{
+  "context": {
+    "identity": {
+      "user": "superman",
+      "groups": []
+    },
+    "softwareStack": {
+      "trinoVersion": "479"
+    }
+  },
+  "action": {
+    "operation": "ExecuteQuery"
+  }
+}
