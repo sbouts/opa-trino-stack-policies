@@ -1,5 +1,7 @@
 package trino
 
+import data.external
+
 import future.keywords.contains
 import future.keywords.if
 import future.keywords.in
