@@ -3,6 +3,7 @@ package trino
 import data.external
 
 import future.keywords.if
+import future.keywords.in
 
 allow_admin if {
 	user_is_admin(input.context.identity.user)

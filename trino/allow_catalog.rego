@@ -1,6 +1,7 @@
 package trino
 
 import future.keywords.if
+import future.keywords.in
 
 allow_catalog if {
 	allow_catalog_management
